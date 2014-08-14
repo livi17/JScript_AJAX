@@ -12,7 +12,7 @@ request.onreadystatechange = function() {
 		var items = request.responseXML.getElementsByTagName('name');
 		var output = '<ul>';
 		for (var i=0; i<items.length; i++){
-			output += '<li>' + items[i].firstChild.nodevalue + '</li>';
+			output += '<li>' + items[i].firstChild.nodeValue + '</li>';
 		}
 		output += '</ul>';
 
